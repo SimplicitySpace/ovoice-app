@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,700;0,900;1,400;1,800&display=swap');
+.section{
+/* background-color: #18023F; */
+background-image: url(https://res.cloudinary.com/dt9f36crx/image/upload/v1680276257/O-voice/second_hhktny.png);
+background-repeat: no-repeat;
+/* background-size: cover; */
+background-position: center;
+background-size: 105% 105%;
+width: 100%;
+
+
+}
+.heroMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    height: 80vh;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.box {
+    width: 100%;
+    max-width: 36rem;
+    padding: 8rem;
+    /* background-color: aquamarine; */
+    /* background-color: #FFA987; */
+    background-color: #7F39F9;
+    /* background-color: #81C589; */
+    border-radius: 1.6rem;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.layer {
+    z-index: 1;
+position: absolute;
+top: calc(100% - 1px);
+height:100%;
+width:100%;
+background:linear-gradient(to left , #623A74,#1B255B);
+transition:0.5s;
+left: 0;
+}
+.box:hover .layer {
+    top: 0;
+}
+.box h3 {
+    z-index: 2;
+    position: relative;
+}
+nav svg {
+background-color: white;
+border-radius: 2rem;
+position: relative;
+}
+
+
+
